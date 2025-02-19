@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndiePass</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-dark text-light">
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <div class="d-flex align-items-center">
+            <img src="imagens/logo.png" alt="IndiePass Logo" class="logo">
+            <input type="text" class="form-control ms-3" placeholder="Pesquisar">
+        </div>
+        <button class="btn btn-warning">Assinatura</button>
+    </header>
+    
+    <main class="container">
+        <section class="recem-adicionado text-center my-4">
+            <h2 class="fw-bold">RECÉM ADICIONADO</h2>
+            <div id="carouselJogos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class="display-4">UNDERTALE</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="display-4">HOLLOW KNIGHT</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="display-4">CELESTE</h1>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselJogos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselJogos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Populares</h3>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <img src="imagens/tunico.png" alt="Tunic" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/celestial.png" alt="Celeste" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/gris.png.png" alt="Gris" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/cavaleirohollow.png" alt="Hollow Knight" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/isaco.png" alt="Isaac" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/stardew.png" alt="Stardew Valley" class="img-fluid rounded game-card">
+                </div>
+            </div>
+        </section>
+        
+        <section class="mt-4">
+            <h3>Volte a jogar</h3>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <img src="imagens/xicra.png" alt="Cuphead" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/carne.png" alt="Super Meat Boy" class="img-fluid rounded game-card">
+                </div>
+                <div class="col-6 col-md-2">
+                    <img src="imagens/katana.png" alt="Katana Zero" class="img-fluid rounded game-card">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
